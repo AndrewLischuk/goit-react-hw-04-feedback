@@ -1,5 +1,8 @@
 .container {
   padding: 0 20px;
   margin: 0 auto;
-  /* min-width: 1200px; */
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }

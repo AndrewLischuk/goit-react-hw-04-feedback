@@ -1,6 +1,8 @@
+import styles from './FeedbackOptions.module.css';
+
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div>
+    <div className={styles.feedbackOptionsBlock}>
       {Object.keys(options).map(item => (
         <button
           key={item}
