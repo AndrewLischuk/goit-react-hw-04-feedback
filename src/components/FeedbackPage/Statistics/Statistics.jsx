@@ -14,7 +14,7 @@ export const Statistics = ({
       <span className={styles.statItem}>Bad: {bad}</span>
       <span className={styles.statItem}>Total: {total()}</span>
       <span className={styles.statItem}>
-        Positive Feedback: {total() === 0 ? 'No' : positivePercentage() + '%'}
+        Positive Feedback: {positivePercentage() + '%'}
       </span>
     </div>
   );
