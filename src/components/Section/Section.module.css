@@ -1,5 +1,4 @@
-div,
-h2 {
+.section {
   display: flex;
   justify-content: center;
   flex-direction: column;
